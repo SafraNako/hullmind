@@ -1,4 +1,5 @@
 import json
+import re
 
 import pytest
 
@@ -28,7 +29,9 @@ def test_ornek_gemi_for_every_type(tip, tmp_path, capsys):
 
 def test_kutle_dengesi_closes(gemi, capsys):
     code, out, _ = run(capsys, "kutle-dengesi", "--gemi", gemi)
-    assert code == 0 and "çelik hurda" in out and "fark (LDT - toplam): +0.000e+00 t" in out
+    assert code == 0 and "çelik hurda" in out
+    residual = float(re.search(r"fark \(LDT - toplam\): ([+-][0-9.e+-]+) t", out).group(1))
+    assert abs(residual) < 1e-9  # closes to floating-point rounding, which differs between platforms
     code, out2, _ = run(capsys, "kutle-dengesi", "--gemi", gemi, "--yakit", "propan")
     assert out2 != out
 
