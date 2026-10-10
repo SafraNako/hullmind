@@ -1,0 +1,244 @@
+{
+  "ad": "ÖRNEK DÖKME YÜK GEMİSİ",
+  "tip": "dokme-yuk",
+  "ldt": 11500.0,
+  "insa_yili": 1998,
+  "bloklar": [
+    {
+      "ad": "Konaklama üstyapısı",
+      "kutle_t": 460.00000000000006,
+      "levha_mm": 6.0,
+      "celik_payi": 0.8,
+      "demir_disi_payi": 0.06,
+      "sonra": [
+        "ön-temizlik"
+      ],
+      "tur": "üstyapı"
+    },
+    {
+      "ad": "Makine dairesi ekipmanı",
+      "kutle_t": 1035.0000000000002,
+      "levha_mm": 30.0,
+      "celik_payi": 0.8,
+      "demir_disi_payi": 0.06,
+      "sonra": [
+        "ön-temizlik"
+      ],
+      "tur": "makine"
+    },
+    {
+      "ad": "Güverte ekipmanı",
+      "kutle_t": 575.0000000000001,
+      "levha_mm": 10.0,
+      "celik_payi": 0.85,
+      "demir_disi_payi": 0.03,
+      "sonra": [
+        "ön-temizlik"
+      ],
+      "tur": "ekipman"
+    },
+    {
+      "ad": "Kıç bölüm",
+      "kutle_t": 920.0000000000001,
+      "levha_mm": 14.0,
+      "celik_payi": 0.96,
+      "demir_disi_payi": 0.005,
+      "sonra": [
+        "Konaklama üstyapısı",
+        "Makine dairesi ekipmanı"
+      ],
+      "tur": "gövde"
+    },
+    {
+      "ad": "Kargo bölümü 1 (üst)",
+      "kutle_t": 701.5000000000001,
+      "levha_mm": 14.0,
+      "celik_payi": 0.96,
+      "demir_disi_payi": 0.005,
+      "sonra": [
+        "Güverte ekipmanı",
+        "Konaklama üstyapısı"
+      ],
+      "tur": "gövde"
+    },
+    {
+      "ad": "Kargo bölümü 1 (alt)",
+      "kutle_t": 701.5000000000001,
+      "levha_mm": 16.1,
+      "celik_payi": 0.96,
+      "demir_disi_payi": 0.005,
+      "sonra": [
+        "Kargo bölümü 1 (üst)"
+      ],
+      "tur": "gövde"
+    },
+    {
+      "ad": "Kargo bölümü 2 (üst)",
+      "kutle_t": 701.5000000000001,
+      "levha_mm": 14.0,
+      "celik_payi": 0.96,
+      "demir_disi_payi": 0.005,
+      "sonra": [
+        "Güverte ekipmanı",
+        "Konaklama üstyapısı"
+      ],
+      "tur": "gövde"
+    },
+    {
+      "ad": "Kargo bölümü 2 (alt)",
+      "kutle_t": 701.5000000000001,
+      "levha_mm": 16.1,
+      "celik_payi": 0.96,
+      "demir_disi_payi": 0.005,
+      "sonra": [
+        "Kargo bölümü 2 (üst)"
+      ],
+      "tur": "gövde"
+    },
+    {
+      "ad": "Kargo bölümü 3 (üst)",
+      "kutle_t": 701.5000000000001,
+      "levha_mm": 14.0,
+      "celik_payi": 0.96,
+      "demir_disi_payi": 0.005,
+      "sonra": [
+        "Güverte ekipmanı",
+        "Konaklama üstyapısı"
+      ],
+      "tur": "gövde"
+    },
+    {
+      "ad": "Kargo bölümü 3 (alt)",
+      "kutle_t": 701.5000000000001,
+      "levha_mm": 16.1,
+      "celik_payi": 0.96,
+      "demir_disi_payi": 0.005,
+      "sonra": [
+        "Kargo bölümü 3 (üst)"
+      ],
+      "tur": "gövde"
+    },
+    {
+      "ad": "Kargo bölümü 4 (üst)",
+      "kutle_t": 701.5000000000001,
+      "levha_mm": 14.0,
+      "celik_payi": 0.96,
+      "demir_disi_payi": 0.005,
+      "sonra": [
+        "Güverte ekipmanı",
+        "Konaklama üstyapısı"
+      ],
+      "tur": "gövde"
+    },
+    {
+      "ad": "Kargo bölümü 4 (alt)",
+      "kutle_t": 701.5000000000001,
+      "levha_mm": 16.1,
+      "celik_payi": 0.96,
+      "demir_disi_payi": 0.005,
+      "sonra": [
+        "Kargo bölümü 4 (üst)"
+      ],
+      "tur": "gövde"
+    },
+    {
+      "ad": "Kargo bölümü 5 (üst)",
+      "kutle_t": 701.5000000000001,
+      "levha_mm": 14.0,
+      "celik_payi": 0.96,
+      "demir_disi_payi": 0.005,
+      "sonra": [
+        "Güverte ekipmanı",
+        "Konaklama üstyapısı"
+      ],
+      "tur": "gövde"
+    },
+    {
+      "ad": "Kargo bölümü 5 (alt)",
+      "kutle_t": 701.5000000000001,
+      "levha_mm": 16.1,
+      "celik_payi": 0.96,
+      "demir_disi_payi": 0.005,
+      "sonra": [
+        "Kargo bölümü 5 (üst)"
+      ],
+      "tur": "gövde"
+    },
+    {
+      "ad": "Baş bölüm",
+      "kutle_t": 805.0000000000001,
+      "levha_mm": 14.0,
+      "celik_payi": 0.96,
+      "demir_disi_payi": 0.005,
+      "sonra": [
+        "Kargo bölümü 1 (üst)",
+        "Kargo bölümü 2 (üst)",
+        "Kargo bölümü 3 (üst)",
+        "Kargo bölümü 4 (üst)",
+        "Kargo bölümü 5 (üst)"
+      ],
+      "tur": "gövde"
+    },
+    {
+      "ad": "Omurga ve çift dip",
+      "kutle_t": 689.9999999999983,
+      "levha_mm": 19.6,
+      "celik_payi": 0.96,
+      "demir_disi_payi": 0.005,
+      "sonra": [
+        "Kargo bölümü 1 (alt)",
+        "Kargo bölümü 2 (alt)",
+        "Kargo bölümü 3 (alt)",
+        "Kargo bölümü 4 (alt)",
+        "Kargo bölümü 5 (alt)",
+        "Kıç bölüm",
+        "Baş bölüm"
+      ],
+      "tur": "gövde"
+    }
+  ],
+  "tehlikeli_madde": [
+    {
+      "kod": "A-1",
+      "yer": "Konaklama bölmeleri yalıtımı",
+      "malzeme_kg": 4000.0,
+      "madde_kg": null,
+      "derisim_mg_kg": 100000.0
+    },
+    {
+      "kod": "A-2",
+      "yer": "Eski kablo izolasyonu",
+      "malzeme_kg": 1500.0,
+      "madde_kg": null,
+      "derisim_mg_kg": 80.0
+    },
+    {
+      "kod": "A-3",
+      "yer": "Soğutma sistemi (R-12)",
+      "malzeme_kg": 120.0,
+      "madde_kg": 120.0,
+      "derisim_mg_kg": null
+    },
+    {
+      "kod": "A-4",
+      "yer": "Su altı boyası (TBT)",
+      "malzeme_kg": 6000.0,
+      "madde_kg": null,
+      "derisim_mg_kg": 4000.0
+    },
+    {
+      "kod": "B-3",
+      "yer": "Akü ve kurşun ağırlıklar",
+      "malzeme_kg": 8000.0,
+      "madde_kg": 7200.0,
+      "derisim_mg_kg": null
+    },
+    {
+      "kod": "B-4",
+      "yer": "Cıvalı sensörler ve lambalar",
+      "malzeme_kg": 40.0,
+      "madde_kg": null,
+      "derisim_mg_kg": 200.0
+    }
+  ]
+}
